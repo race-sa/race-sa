@@ -1,0 +1,40 @@
+"""I=int(input("Enter first number"))
+J=int(input("Enter another number"))
+M = I * J
+N=I+J
+O=I/J
+if I==45 and J==3:
+
+   M=555
+   print("the required number is",M)
+elif I==56 and J==9:
+    N=77
+elif I==56  and  J==6:
+    O=4
+else:
+    print(M)
+    print(N)
+    print(O)
+#another method
+R=input("Enter the desired operator")
+if R=="*":
+    T=M
+    if I==45 and  J==3:
+        T=555
+        print(T)
+    else:
+        print(T)
+elif R=="+":
+    T=N
+    if I==56 and J==9:
+        T=77
+        print(T)
+    else:
+        print(T)
+elif  R=="/":
+    T=O
+    if I==56 and J==6:
+        T=4
+        print(T)
+    else:
+        print(T)
