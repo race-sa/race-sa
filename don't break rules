@@ -1,0 +1,32 @@
+
+var1=22
+var2=10
+
+print("What's your name?")
+I=input()
+print("Enter suitable value for var3.PS: It must be greater,if not you're breaking the rules")
+var3=int(input())
+if var3>var2 :
+    print("Greater.Thank you for listening to me" ,str(I))
+#if var3==var2:
+    #print("Equal")
+
+else:
+    if  var3==var2:
+        print("Equal")
+    if var3<var2:
+        print(str(I),"please enter greater number")
+        var3=int(input())
+        if var3>var2:
+            print("Good",str(I))
+        if var3==var2:
+            print("equal")
+            print("Do it again")
+            var3=int(input())
+            if var3>var2:
+                print("Good",str(I),".That's why I love playing with you.")
+            else:
+                print("Bad", str(I),".Not playing with you anymore")
+        else:
+               print("Bad",I)   # even though you don't use str it still works.
+
